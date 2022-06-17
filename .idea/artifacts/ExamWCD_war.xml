@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ExamWCD:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>ExamWCD</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="ExamWCD-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="ExamWCD:war exploded" />
+    </root>
+  </artifact>
+</component>
